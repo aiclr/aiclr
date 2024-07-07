@@ -4,13 +4,15 @@
 gantt
     dateFormat YYYY-MM-DD HH:mm:dd
     title AIO
-    section gh-pages
-        jekyll: crit, active, 2023-07-21, 1M
+    section books
+        Advanced Programming in the UNIX Environment Third Edition:  crit, active,apue, 2023-07-28, 2y
     section spring-boot
         liquibase: done, 2023-08-01, 5d
-        flyway: 3d
-    section books
-        Advanced Programming in the UNIX Environment Third Edition:  crit, active,apue, 2023-07-28, 4M
+        flyway: 2024-07-07, 2d
+    section gh-pages
+        jekyll: done, 2023-07-21, 1M
+        hugo:  done, 2024-05-01, 2M
+
 ```
 
 <!--
